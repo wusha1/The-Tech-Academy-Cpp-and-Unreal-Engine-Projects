@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e2c8aa4a-aa4a-4070-92fb-838a7a7bb8b0}</ProjectGuid>
+    <ProjectGuid>{fdc78ceb-9f6e-4ec6-b15d-1552c9444541}</ProjectGuid>
     <RootNamespace>OOPSubmissionAssignment</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -1,52 +1,53 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
+// Dog class
 class Dog
 {
-    // This program shows a dog class with the same properties and behaviors from the image provided
-
 public:
-    // Properties and states
-    std::string breed;
-    std::string color;
-    std::string height;
-    std::string weight;
+    // Properties
+    string breed;
+    string color;
+    string height;
+    string weight;
 
-    // Methods and behaviors
+    // Methods
     void shake()
     {
-        std::cout << "The dog shakes.\n";
+        cout << "The dog shakes." << endl;
     }
 
     void sit()
     {
-        std::cout << "The dog sits.\n";
+        cout << "The dog sits." << endl;
     }
 
     void layDown()
     {
-        std::cout << "The dog lays down.\n";
+        cout << "The dog lays down." << endl;
     }
 };
 
 int main()
 {
-    // Creates an object from the Dog class
+    // Creates a dog object
     Dog dog;
 
-    // Gives the object its state
+    // Gives the dog its properties
     dog.breed = "Hound";
     dog.color = "Brown";
     dog.height = "2 feet";
     dog.weight = "60 pounds";
 
-    // This displays the object's properties
-    std::cout << "Breed: " << dog.breed << "\n";
-    std::cout << "Color: " << dog.color << "\n";
-    std::cout << "Height: " << dog.height << "\n";
-    std::cout << "Weight: " << dog.weight << "\n\n";
+    // Displays the properties
+    cout << "Breed: " << dog.breed << endl;
+    cout << "Color: " << dog.color << endl;
+    cout << "Height: " << dog.height << endl;
+    cout << "Weight: " << dog.weight << endl << endl;
 
-    // Calls the object's methods
+    // Calls the methods
     dog.shake();
     dog.sit();
     dog.layDown();
