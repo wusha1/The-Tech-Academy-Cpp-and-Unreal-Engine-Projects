@@ -3,14 +3,16 @@
 
 class Dog
 {
+    // This program shows a dog class with the same properties and behaviors from the image provided
+
 public:
-    // Properties / State
+    // Properties and states
     std::string breed;
     std::string color;
     std::string height;
     std::string weight;
 
-    // Methods / Behavior
+    // Methods and behaviors
     void shake()
     {
         std::cout << "The dog shakes.\n";
@@ -38,7 +40,7 @@ int main()
     dog.height = "2 feet";
     dog.weight = "60 pounds";
 
-    // Displays the object's properties
+    // This displays the object's properties
     std::cout << "Breed: " << dog.breed << "\n";
     std::cout << "Color: " << dog.color << "\n";
     std::cout << "Height: " << dog.height << "\n";
