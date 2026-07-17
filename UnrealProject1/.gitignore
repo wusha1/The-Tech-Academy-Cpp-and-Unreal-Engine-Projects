@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Unreal Engine generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Build files
+Build/
+
+# Visual Studio files
+*.sln
+*.slnx
+*.opensdf
+*.sdf
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.vcxproj
+*.vcxproj.filters
+*.VC.db
+*.VC.opendb
+
+# Logs
+*.log
+
+# Crash dumps
+*.dmp
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Upgrade logs
+UpgradeLog*.htm
+
+# VS Code
+.vscode/
+
+# Misc
+.vsconfig
